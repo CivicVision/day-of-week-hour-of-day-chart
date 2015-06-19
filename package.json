@@ -1,0 +1,30 @@
+{
+  "name": "day-of-week-hour-of-day-chart",
+  "version": "0.0.0",
+  "description": "Reusable chart for Day of week hour of day viz with d3",
+  "main": "dist/dayOfWeekHour.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "start": "coffee --compile --output dist lib"
+  },
+  "author": "Mila Frerichs",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "2.3.0",
+    "coffee-script": "^1.9.3",
+    "d3": "^3.5.5",
+    "karma": "^0.12.36",
+    "karma-chai": "^0.1.0",
+    "karma-chai-jquery": "^1.0.0",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-coffee-preprocessor": "0.2.1",
+    "karma-coverage": "0.3.1",
+    "karma-jquery": "^0.1.0",
+    "karma-mocha": "0.1.10",
+    "karma-phantomjs-launcher": "0.1.4",
+    "karma-sinon-chai": "0.3.0",
+    "mocha": "2.2.4",
+    "moment": "^2.10.3",
+    "underscore": "^1.8.3"
+  }
+}
