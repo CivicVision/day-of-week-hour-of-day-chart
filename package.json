@@ -13,7 +13,7 @@
     "chai": "2.3.0",
     "coffee-script": "^1.9.3",
     "d3": "^3.5.5",
-    "karma": "^0.12.36",
+    "karma": "^5.0.8",
     "karma-chai": "^0.1.0",
     "karma-chai-jquery": "^1.0.0",
     "karma-chrome-launcher": "^0.1.12",
